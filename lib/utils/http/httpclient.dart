@@ -21,6 +21,7 @@ class HttpClient {
     );
     return handleResponse(response);
   }
+
 // Update Request
   static Future<Map<String, dynamic>> putRequest(
       String endpoint, dynamic data) async {
@@ -33,10 +34,11 @@ class HttpClient {
   }
 
 // Delete Request
-static Future<Map<String, dynamic>> deleteRequest()async{
-final response = await http.delete(Uri.parse('$baseUrl/$endpoint'));
-return handleResponse(response);
-}
+  static Future<Map<String, dynamic>> deleteRequest(String endpoint) async {
+    final response = await http.delete(Uri.parse('$baseUrl/$endpoint'));
+    return handleResponse(response);
+  }
+
   static Map<String, dynamic> handleResponse(http.Response response) {
     if (response.statusCode == 200 || response.statusCode == 201) {
       return json.decode(response.body);
