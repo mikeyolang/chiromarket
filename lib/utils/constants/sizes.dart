@@ -32,7 +32,7 @@ class CustomSizes {
   // Default Spacings
   static const double defaultSpace = 24.0;
   static const double spaceBtwnItems = 16.0;
-  static const double spaceBtwnSections = 32.0;
+  static const double spaceBtwnSections = 15.0;
 
   // Border Radius
   static const double borderRadiusSm = 4.0;

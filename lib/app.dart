@@ -1,4 +1,6 @@
+import 'package:chiromarket/features/authentication/screens/login/login.dart';
 import 'package:chiromarket/features/authentication/screens/onboarding/onboarding.dart';
+import 'package:chiromarket/features/authentication/screens/signup/sign_up.dart';
 import 'package:chiromarket/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -13,7 +15,8 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: CustomTheme.lightTheme,
       darkTheme: CustomTheme.darkTheme,
-      home: const OnboardingScreen(),
+      debugShowCheckedModeBanner: false,
+      home: const SignupScreen(),
     );
   }
 }

@@ -1,4 +1,5 @@
 import 'package:chiromarket/common/styles/spacing_styles.dart';
+import 'package:chiromarket/features/authentication/screens/signup/sign_up.dart';
 import 'package:chiromarket/utils/constants/colors.dart';
 import 'package:chiromarket/utils/constants/image_strings.dart';
 import 'package:chiromarket/utils/constants/sizes.dart';
@@ -94,8 +95,11 @@ class LoginScreen extends StatelessWidget {
                       SizedBox(
                         width: double.infinity,
                         child: OutlinedButton(
-                          onPressed: () {},
-                          child: const Text("Create Account"),
+                          onPressed: () => Get.to(() => const SignupScreen()),
+                          child: const Text(
+                            "Create Account",
+                            style: TextStyle(color: Colors.black),
+                          ),
                         ),
                       ),
                     ],
@@ -166,7 +170,24 @@ class LoginScreen extends StatelessWidget {
                       icon: const Image(
                         height: CustomSizes.iconMd,
                         width: CustomSizes.iconMd,
-                        image: AssetImage(AppImages.googleLogo),
+                        image: AssetImage(AppImages.facebookLogo),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(
+                    width: CustomSizes.spaceBtwnSections,
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(color: Colors.grey),
+                      borderRadius: BorderRadius.circular(100),
+                    ),
+                    child: IconButton(
+                      onPressed: () {},
+                      icon: const Image(
+                        height: CustomSizes.iconMd,
+                        width: CustomSizes.iconMd,
+                        image: AssetImage(AppImages.instagramLogo),
                       ),
                     ),
                   ),

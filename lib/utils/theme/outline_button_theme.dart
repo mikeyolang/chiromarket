@@ -6,7 +6,7 @@ class CustomOutlinedButton {
     style: OutlinedButton.styleFrom(
       elevation: 0,
       foregroundColor: Colors.white,
-      backgroundColor: Colors.blue,
+      backgroundColor: Colors.white,
       disabledForegroundColor: Colors.grey,
       disabledBackgroundColor: Colors.grey,
       side: const BorderSide(color: Colors.blue),
