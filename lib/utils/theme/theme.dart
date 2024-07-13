@@ -31,7 +31,7 @@ class CustomTheme {
     primaryColor: Colors.blue,
     scaffoldBackgroundColor: Colors.black87,
     textTheme: CustomTextTheme.darkTextTheme,
-    elevatedButtonTheme: CustomElevatedButtonTheme.darktElevatedButton,
+    elevatedButtonTheme: CustomElevatedButtonTheme.darkElevatedButton,
     appBarTheme: CustomAppBarTheme.darkAppbarTheme,
     checkboxTheme: CustomCheckBoxTheme.darkCheckBoxTheme,
     bottomSheetTheme: CustomBottomSheetTheme.darkBottomSheet,

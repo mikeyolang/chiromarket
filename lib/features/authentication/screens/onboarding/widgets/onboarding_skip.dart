@@ -2,7 +2,7 @@ import 'package:chiromarket/features/authentication/controllers/onboarding/onboa
 import 'package:chiromarket/utils/device/device_utility.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../utils/constants/sizes.dart';
+import '../../../../../utils/constants/sizes.dart';
 
 class OnboardingSkip extends StatelessWidget {
   const OnboardingSkip({

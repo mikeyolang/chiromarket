@@ -20,7 +20,7 @@ class CustomElevatedButtonTheme {
     ),
   );
 
-  static final darktElevatedButton = ElevatedButtonThemeData(
+  static final darkElevatedButton = ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 0,
       foregroundColor: Colors.white,

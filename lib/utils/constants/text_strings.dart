@@ -12,4 +12,7 @@ class AppTextStrings {
 
   static const String homeAppBarTitle = "A Good Day For Shopping";
   static const String homeAppBarSubTitle = "Michael Olang";
+
+  static const String loginTittle = "Log in to your Account";
+  static const String loginSubtitle = "Login to your accout to continue shopping";
 }

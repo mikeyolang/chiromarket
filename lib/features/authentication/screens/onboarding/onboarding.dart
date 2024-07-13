@@ -1,13 +1,13 @@
 import 'package:chiromarket/features/authentication/controllers/onboarding/onboarding_controller.dart';
-import 'package:chiromarket/features/authentication/screens/onboarding_dot_navigation.dart';
-import 'package:chiromarket/features/authentication/screens/onboarding_next_button.dart';
-import 'package:chiromarket/features/authentication/screens/widgets/onboarding_page.dart';
-import 'package:chiromarket/features/authentication/screens/widgets/onboarding_skip.dart';
+import 'package:chiromarket/features/authentication/screens/onboarding/onboarding_dot_navigation.dart';
+import 'package:chiromarket/features/authentication/screens/onboarding/onboarding_next_button.dart';
+import 'package:chiromarket/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
+import 'package:chiromarket/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
 
 import 'package:chiromarket/utils/constants/image_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../utils/constants/text_strings.dart';
+import '../../../../utils/constants/text_strings.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});
