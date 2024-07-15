@@ -24,7 +24,7 @@ class CustomSizes {
   static const double buttonElevation = 4.0;
 
   // Appbar Height
-  static const double appBarHeight = 56.0;
+  static const double appBarHeight = 30.0;
 
   // Size of images
   static const double imageThumbSize = 30.0;
