@@ -1,5 +1,6 @@
 import 'package:chiromarket/common/styles/spacing_styles.dart';
 import 'package:chiromarket/features/authentication/screens/signup/sign_up.dart';
+import 'package:chiromarket/features/authentication/screens/signup/verify_email.dart';
 import 'package:chiromarket/utils/constants/colors.dart';
 import 'package:chiromarket/utils/constants/image_strings.dart';
 import 'package:chiromarket/utils/constants/sizes.dart';
@@ -23,10 +24,10 @@ class SignupScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              IconButton(
-                onPressed: () {},
-                icon: const Icon(Icons.arrow_back_ios),
-              ),
+              // IconButton(
+              //   onPressed: () {},
+              //   icon: const Icon(Icons.arrow_back_ios),
+              // ),
               const SizedBox(
                 width: CustomSizes.spaceBtwnInputFields,
               ),
@@ -165,7 +166,8 @@ class SignupScreen extends StatelessWidget {
                       SizedBox(
                         width: double.infinity,
                         child: ElevatedButton(
-                          onPressed: () {},
+                          onPressed: () =>
+                              Get.to(() => const VerifyEmailScreen()),
                           child: const Text("Create Account"),
                         ),
                       ),
