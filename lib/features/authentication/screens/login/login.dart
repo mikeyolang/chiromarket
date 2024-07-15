@@ -1,4 +1,5 @@
 import 'package:chiromarket/common/styles/spacing_styles.dart';
+import 'package:chiromarket/features/authentication/screens/passwords/forgot_pass.dart';
 import 'package:chiromarket/features/authentication/screens/signup/sign_up.dart';
 import 'package:chiromarket/utils/constants/colors.dart';
 import 'package:chiromarket/utils/constants/image_strings.dart';
@@ -71,7 +72,8 @@ class LoginScreen extends StatelessWidget {
                             ],
                           ),
                           TextButton(
-                            onPressed: () {},
+                            onPressed: () =>
+                                Get.to(() => const ForgotPasswordScreen()),
                             child: const Text("Forgot Password"),
                           ),
                         ],
