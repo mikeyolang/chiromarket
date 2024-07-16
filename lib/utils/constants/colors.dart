@@ -11,6 +11,7 @@ class CustomColors {
   static const Color primaryTextColor = Color(0xff3333333);
   static const Color secondaryTextColor = Color(0xFF6C7570);
   static const Color whiteText = Colors.white;
+  static const Color greyText = Colors.grey;
 
   // Backgroud colors
   static const Color lightBackground = Colors.white;
