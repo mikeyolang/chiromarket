@@ -1,10 +1,9 @@
-import 'package:chiromarket/common/styles/spacing_styles.dart';
-import 'package:chiromarket/features/authentication/screens/signup/sign_up.dart';
+
 import 'package:chiromarket/features/authentication/screens/signup/verify_email.dart';
 import 'package:chiromarket/utils/constants/colors.dart';
 import 'package:chiromarket/utils/constants/image_strings.dart';
 import 'package:chiromarket/utils/constants/sizes.dart';
-import 'package:chiromarket/utils/constants/text_strings.dart';
+
 import 'package:chiromarket/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

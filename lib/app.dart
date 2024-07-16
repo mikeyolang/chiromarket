@@ -1,5 +1,4 @@
-import 'package:chiromarket/features/authentication/screens/login/login.dart';
-import 'package:chiromarket/features/authentication/screens/onboarding/onboarding.dart';
+
 import 'package:chiromarket/features/authentication/screens/signup/sign_up.dart';
 import 'package:chiromarket/utils/theme/theme.dart';
 import 'package:flutter/material.dart';

@@ -1,3 +1,4 @@
+import 'package:chiromarket/bottom_navigation.dart';
 import 'package:chiromarket/common/styles/spacing_styles.dart';
 import 'package:chiromarket/features/authentication/screens/passwords/forgot_pass.dart';
 import 'package:chiromarket/features/authentication/screens/signup/sign_up.dart';
@@ -87,7 +88,9 @@ class LoginScreen extends StatelessWidget {
                       SizedBox(
                         width: double.infinity,
                         child: ElevatedButton(
-                          onPressed: () {},
+                          onPressed: () => Get.to(
+                            () => const BottomNavigationMenu(),
+                          ),
                           child: const Text("Sign In"),
                         ),
                       ),
