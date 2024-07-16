@@ -1,4 +1,5 @@
 
+import 'package:chiromarket/bottom_navigation.dart';
 import 'package:chiromarket/features/authentication/screens/signup/sign_up.dart';
 import 'package:chiromarket/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: CustomTheme.lightTheme,
       darkTheme: CustomTheme.darkTheme,
       debugShowCheckedModeBanner: false,
-      home: const SignupScreen(),
+      home: const BottomNavigationMenu(),
     );
   }
 }

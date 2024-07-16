@@ -1,3 +1,4 @@
+import 'package:chiromarket/features/shop/screens/home/home_screen.dart';
 import 'package:chiromarket/utils/constants/colors.dart';
 import 'package:chiromarket/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
@@ -40,5 +41,7 @@ class BottomNavigationMenu extends StatelessWidget {
 
 class NavigationController extends GetxController {
   Rx<int> selectedIndex = 0.obs;
-  final screens = [];
+  final screens = [
+    const HomeScreen(),
+  ];
 }
