@@ -8,5 +8,6 @@ class CustomSpacingStyles {
     left: CustomSizes.defaultSpace,
     bottom: CustomSizes.defaultSpace,
     right: CustomSizes.defaultSpace,
+    
   );
 }
